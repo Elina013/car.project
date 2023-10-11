@@ -7,16 +7,16 @@ function Car(make, img, price, model, year) {
 }
 
 var cars = [
-    new Car("BMW", "bmw.jpg", 800000, "X5", 2022),
-    new Car("Volvo", "volvo.jpg", 25000, 240, 1985),
-    new Car("Toyota", "toyota.jpg",150000, "Camry", 2019),
-    new Car("Ford", "ford.jpg", 400000, "Mustang", 2022),
-    new Car("Honda", "honda.jpg", 80000, "Civic", 2015),    
-    new Car("Audi", "audi.jpg", 300000, "A4", 2020),
-    new Car("Volkswagen", "golf.jpg", 120000, "Golf", 2017),
-    new Car("Mercedes-Benz", "merca.jpg", 220000, "E-klass", 2016),
-    new Car("Nissan", "nissan.jpg", 60000, "Altima", 2013),
-    new Car("Koenigsegg", "jesko.jpg", 30000000, "Jesko", 2021),
+    new Car("BMW", "img/bmw.jpeg", 800000, "X5", 2022),
+    new Car("Volvo", "img/volvo.jpeg", 25000, 240, 1985),
+    new Car("Toyota", "img/toyota.jpeg",150000, "Camry", 2019),
+    new Car("Ford", "img/ford.jpeg", 400000, "Mustang", 2022),
+    new Car("Honda", "img/honda.jpeg", 80000, "Civic", 2015),    
+    new Car("Audi", "img/audi.jpeg", 300000, "A4", 2020),
+    new Car("Volkswagen", "img/golf.jpeg", 120000, "Golf", 2017),
+    new Car("Mercedes-Benz", "img/merca.jpeg", 220000, "E-klass", 2016),
+    new Car("Nissan", "img/nissan.jpeg", 60000, "Altima", 2013),
+    new Car("Koenigsegg", "img/jesko.jpeg", 30000000, "Jesko", 2021),
 ];
 
 var output = document.getElementById("output");
